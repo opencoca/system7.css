@@ -430,7 +430,7 @@ button, input  {
   font-family: Chicago_12;
 }
 
-button, input:focus  {
+button, input:focus, ::file-selector-button,  {
   outline:none;
 }
 
