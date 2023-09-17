@@ -390,7 +390,6 @@ button, .btn, .btn-default {
   color: var(--secondary);
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
   font-family: Chicago_12;
   cursor: pointer;
 }
@@ -413,7 +412,6 @@ button, .btn, .btn-default {
   color: var(--disabled);
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
   font-family: Chicago_12;
 }
 
@@ -430,7 +428,6 @@ button, .btn, .btn-default {
 button, input  {
   border: 1.5px solid var(--secondary);
   font-family: Chicago_12;
-  font-size: 18px;
 }
 
 button, input:focus  {
@@ -578,7 +575,6 @@ input[type="checkbox"][disabled]:checked + label::after {
 /* Form */
 form {
   font-family: "Inconsolata", Menlo, Chicago, Geneva;
-  font-size:14px;
 }
 
 /* select menu */
