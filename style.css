@@ -455,12 +455,6 @@ textarea:focus {
   color: var(--primary);
 }
 
-input[type="radio"] + label::before {
-  border-image: svg-load("./icon/radio-border.svg");
-  width: 20px;
-  height: 20px;
-}
-
 input[type="checkbox"] + label::before {
   border: 1.5px solid var(--secondary);
   width: 20px;
@@ -469,14 +463,7 @@ input[type="checkbox"] + label::before {
 
 input[type="radio"],
 input[type="checkbox"] {
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  margin: 0;
-  background: 0;
-  position: fixed;
-  opacity: 0;
-  border: none;
+  margin-right: 0.6em;
 }
 
 input[type="radio"] + label,
@@ -600,9 +587,7 @@ select {
   height: auto;
   width: 10rem;
   font-family: Chicago_12;
-  font-size: 18px;
   background-image: svg-load("./icon/select-button.svg");
-  background-position: top 2px right 2px;
   background-repeat: no-repeat;
   appearance: none;
   -webkit-appearance: none;
