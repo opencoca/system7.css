@@ -378,7 +378,7 @@ h2 {
 
 
 /* buttons */
-button, .btn, .btn-default {
+button, .btn, .btn-default, ::file-selector-button  {
   min-height: 20px;
   min-width: 59px;
   padding: 0 20px;
@@ -430,7 +430,7 @@ button, input  {
   font-family: Chicago_12;
 }
 
-button, input:focus, ::file-selector-button,  {
+button, input:focus, ::file-selector-button {
   outline:none;
 }
 
