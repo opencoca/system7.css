@@ -429,7 +429,6 @@ button, .btn, .btn-default {
 /* text input */
 button, input  {
   border: 1.5px solid var(--secondary);
-  color: var(--secondary);
   font-family: Chicago_12;
   font-size: 18px;
 }
