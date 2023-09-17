@@ -378,7 +378,7 @@ h2 {
 
 
 /* buttons */
-.btn, .btn-default {
+button, .btn, .btn-default {
   min-height: 20px;
   min-width: 59px;
   padding: 0 20px;
