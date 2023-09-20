@@ -12,7 +12,7 @@ const { homepage, version } = require("./package.json");
 
 function buildCSS() {
   const input =
-    `/*! system.css v${version} - ${homepage} */\n` + fs.readFileSync("style.css");
+    `/*! system7.css v${version} - ${homepage} */\n` + fs.readFileSync("style.css");
 
   return postcss()
     .use(require("postcss-inline-svg"))
@@ -22,13 +22,13 @@ function buildCSS() {
     .use(require("cssnano"))
     .process(input, {
       from: "style.css",
-      to: "dist/system.css",
+      to: "dist/system7.css",
       map: { inline: false },
     })
     .then((result) => {
       mkdirp.sync("dist");
-      fs.writeFileSync("dist/system.css", result.css);
-      fs.writeFileSync("dist/system.css.map", result.map.toString());
+      fs.writeFileSync("dist/system7.css", result.css);
+      fs.writeFileSync("dist/system7.css.map", result.map.toString());
     });
 }
 

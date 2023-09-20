@@ -1,8 +1,8 @@
 {
-  "name": "@sakun/system.css",
-  "version": "0.1.11",
-  "description": "A design system for building retro Apple interfaces",
-  "main": "dist/system.css",
+  "name": "@startr_/system7.css",
+  "version": "0.0.1",
+  "description": "A design system for building Apple inspired interfaces",
+  "main": "dist/system7.css",
   "directories": {
     "doc": "docs"
   },
@@ -13,18 +13,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sakofchit/system.css.git"
+    "url": "git+https://github.com/opencoca/system7.css.git"
   },
   "keywords": [
     "css",
     "classic macos"
   ],
-  "author": "Sakun Acharige <hey@sakun.co>",
+  "author": "Startr Team <info@startr.ca>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sakofchit/system.css/issues"
+    "url": "https://github.com/opencocasystem7.css/issues"
   },
-  "homepage": "https://github.com/sakofchit/system.css",
+  "homepage": "https://github.com/opencocasystem7.css",
   "devDependencies": {
     "chokidar": "^3.3.1",
     "cssnano": "^5.0.1",
