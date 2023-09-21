@@ -79,15 +79,14 @@ Everything you'll need can be found in [style.css](https://github.com/opencoca/s
 
 ## Contributing, Credits, etc.
 
-Thanks for checking this project out! This library was made in good fun and was largely inspired by [98.css](https://github.com/jdan/98.css). The Chicago 12pt and Geneva 9pt fonts are recreations by [@blogmywiki](https://twitter.com/blogmywiki)
+Thanks for checking this project out! This library was made in good fun and was directly inspired by [ystem.css](https://github.com/sakofchit/system.css) and [98.css](https://github.com/jdan/98.css). The Chicago 12pt and Geneva 9pt fonts are recreations by [@blogmywiki](https://twitter.com/blogmywiki)
 
- System7.css is still in beta! I recreated components based on Apple's Human Interface Guidelines. However, there's still a pretty good chance that I might've missed/overlooked something essential. I've also had to recreate most of the assets, which can also be found [here](https://github.com/opencoca/system7.css/tree/main/icon).
+System7.css is still in beta! I recreated components based on Apple's Human Interface Guidelines. However, there's still a pretty good chance that I might've missed/overlooked something essential. I've also had to recreate most of the assets, which can also be found [here](https://github.com/opencoca/system7.css/tree/main/icon).
 
 If you find a bug, consider opening an issue. If there's something that you'd like to add, please feel free to create a PR!
 
 If you'd like to see what else I'm up to, consider following me on [Twitter](https://twitter.com/opencoca) or checking out my [personal site](https://startr_.co) :)
 
 ## Sponsors
-[![CSS Scan](https://d33wubrfki0l68.cloudfront.net/6da92d1f39c939204d13f67ec76e725362b41e70/55cb0/img/logo.png)](https://getcssscan.com/?ref=systemcss)
 
-[CSS Scan](https://getcssscan.com/?ref=systemcss): The fastest and easiest way to check, copy and edit CSS
+### If you would like to sponsor System7 css please reach out at info@openco.ca
