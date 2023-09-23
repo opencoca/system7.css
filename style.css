@@ -608,6 +608,7 @@ ul[role] {
 ul[role="menu-bar"] {
   display: flex;
   background: var(--primary);
+  max-height: 2.6rem;
 }
 ul[role="menu-bar"] > [role="menu-item"] {
   position: relative;
