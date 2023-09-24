@@ -678,6 +678,89 @@ ul [role="menu-item"].divider::after {
   border-top: 1.5px dotted var(--secondary);
 }
 
+
+/* new menu-bar */
+
+ul.menu-bar {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  cursor: pointer;
+  font-family: Chicago_12;
+  font-size: 1em;
+  display: flex;
+  background: var(--primary);
+  max-height: 2.6rem;
+  border-bottom: solid 2px;
+  
+}
+ul.menu-bar > .menu-item {
+  position: relative;
+  padding: 6px 10px;
+}
+ul.menu-bar  > .menu-item:focus, ul.menu-bar > .menu-item:focus-within, ul.menu-bar > .menu-item:hover {
+  background: var(--secondary);
+  color: var(--primary);
+  outline: none;
+}
+ul.menu-bar > .menu-item[aria-haspopup="false"] * {
+  color: inherit;
+  background: inherit;
+  text-decoration: none;
+}
+ul.menu {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  min-width: 200px;
+  background: var(--primary);
+  color: initial;
+  border: 1px solid;
+  box-shadow: var(--box-shadow);
+}
+ul.menu::before {
+  content: "";
+  pointer-events: none;
+  position: absolute;
+  left: 28px;
+  width: 2px;
+  box-shadow: inset 1px 0 rgba(0, 0, 0, 0.15), inset -1px 0 var(--primary);
+}
+
+.menu-item ul.menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  z-index: 99;
+}
+ul.menu > .menu-item > a, ul.menu > .menu-item > button, ul.menu > .menu-item[aria-haspopup="true"] {
+  all: unset;
+  position: relative;
+  padding: 5px 20px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+
+}
+ul.menu > .menu-item > a:hover, ul.menu > .menu-item > button:hover, ul.menu > .menu-item[aria-haspopup="true"]:hover, ul.menu > .menu-item > a:focus, ul.menu > .menu-item > button:focus, ul.menu > .menu-item[aria-haspopup="true"]:focus {
+  background: var(--secondary);
+  color: var(--primary);
+}
+ul .menu-item {
+  position: relative;
+}
+ul .menu-item:focus > .menu, ul .menu-item:focus-within > .menu {
+  display: block;
+}
+ul .menu-item.divider::after {
+  content: "";
+  pointer-events: none;
+  display: block;
+  padding: 0;
+  border-top: 1.5px dotted var(--secondary);
+}
+
 /* styles specific to demo page */
 .menu-items > li {
   margin-bottom: 1rem;
