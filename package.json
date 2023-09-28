@@ -7,8 +7,8 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "node build.js",
-    "deploy": "npm run build && gh-pages -d dist",
+    "build": "npx eleventy --input=web",
+    "deploy": "npx eleventy --input=web && git add -A && git diff --cached --quiet --exit-code || (git commit -m 'Auto commit changes' && git push origin)",
     "release": "npm run build && npm publish"
   },
   "repository": {
@@ -42,7 +42,8 @@
     "postcss-inline": "^1.2.0",
     "postcss-inline-svg": "^4.1.0"
   },
-  "dependencies": {
-    "draggabilly": "^3.0.0"
+    "dependencies": {
+      "@11ty/eleventy": "^2.0.1"
+    }
   }
-}
+
