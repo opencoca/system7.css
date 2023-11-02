@@ -156,7 +156,7 @@ body {
     linear-gradient(var(--primary) 21px,
       transparent 1%) center, var(--tertiary);
   background-size: 22px 22px;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 a {
