@@ -483,6 +483,9 @@ input[type="week"]:focus-visible,
 input[type="search"]:focus-visible,
 input[type="tel"]:focus-visible,
 input[type="color"]:focus-visible,
+input[type="radio"],
+input[type="checkbox"],
+input[type="button"],
 textarea:focus {
   background: var(--secondary);
   color: var(--primary);
