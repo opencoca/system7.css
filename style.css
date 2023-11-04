@@ -37,8 +37,8 @@
   --sys-color-darkgrey: #B6B7B8;
 
   /* Theme Tokens */
-  --primary: var(--sys-color-white);
-  --secondary: var(--sys-color-black);
+  --primary: var(--sys-color-black);
+  --secondary: var(--sys-color-white);
   --tertiary: var(--sys-color-grey);
 
   /* Component Tokens */
