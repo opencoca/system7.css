@@ -76,23 +76,23 @@
 
 ::-webkit-scrollbar {
   width: 22px;
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 ::-webkit-scrollbar-track {
-  background: linear-gradient(45deg, var(--secondary) 25%, transparent 25%, transparent 75%, var(--secondary) 75%, var(--secondary)), linear-gradient(45deg, var(--secondary) 25%, transparent 25%, transparent 75%, var(--secondary) 75%, var(--secondary));
-  background-color: var(--primary);
+  background: linear-gradient(45deg, var(--primary) 25%, transparent 25%, transparent 75%, var(--primary) 75%, var(--primary)), linear-gradient(45deg, var(--primary) 25%, transparent 25%, transparent 75%, var(--primary) 75%, var(--primary));
+  background-color: var(--secondary);
   background-size: 4px 4px;
   background-position: 0 0, 2px 2px;
   width: 10px;
-  border-left: 3px solid var(--secondary);
+  border-left: 3px solid var(--primary);
 }
 
 ::-webkit-scrollbar-thumb {
   width: 20px;
   box-sizing: content-box;
-  background-color: var(--primary);
-  border: 2px solid var(--secondary);
+  background-color: var(--secondary);
+  border: 2px solid var(--primary);
   border-right: none;
 }
 
@@ -151,21 +151,21 @@
 
 body {
   background: linear-gradient(90deg,
-      var(--secondary) 21px,
+      var(--primary) 21px,
       transparent 1%) center,
-    linear-gradient(var(--secondary) 21px,
+    linear-gradient(var(--primary) 21px,
       transparent 1%) center, var(--tertiary);
   background-size: 22px 22px;
   background-attachment: scroll;
 }
 
 a {
-  color: var(--secondary);
+  color: var(--primary);
   text-decoration: underline;
 }
 
 hr {
-  border-top: 0.15em solid var(--secondary);
+  border-top: 0.15em solid var(--primary);
 }
 
 /*.container {
@@ -195,14 +195,14 @@ h4,
   border: 2px solid;
   padding: 10px;
   box-shadow: var(--box-shadow);
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .modal-dialog,
 .alert-box {
   width: auto;
   padding: 13px;
-  background: var(--primary);
+  background: var(--secondary);
 }
 
 .modal-contents,
@@ -218,7 +218,7 @@ h4,
 }
 
 .inner-border {
-  border-color: var(--secondary);
+  border-color: var(--primary);
   border-top: 3.5px solid;
   border-bottom: 3.5px solid;
   border-left: 5px solid;
@@ -226,7 +226,7 @@ h4,
 }
 
 .outer-border {
-  border-color: var(--secondary);
+  border-color: var(--primary);
   border: 2px solid;
   padding: 3px;
 }
@@ -239,7 +239,7 @@ h4,
   height: 1.5rem;
   margin: 0.1rem 0;
   padding: 0.2rem 0.1rem;
-  background: linear-gradient(var(--secondary) 50%, transparent 50%);
+  background: linear-gradient(var(--primary) 50%, transparent 50%);
   background-size: 6.6666666667% 13.3333333333%;
   background-clip: content-box;
 }
@@ -251,7 +251,7 @@ h4,
   font-weight: bold;
   line-height: 1.1;
   text-align: center;
-  background: var(--primary);
+  background: var(--secondary);
   cursor: default;
   font-family: Chicago_12;
 }
@@ -285,8 +285,8 @@ h4,
   width: 40px;
   height: 40px;
   margin: 0 0.2rem;
-  border: 4px solid var(--secondary);
-  background-color: var(--primary);
+  border: 4px solid var(--primary);
+  background-color: var(--secondary);
   cursor: pointer;
   transform: scale(0.5);
 }
@@ -310,13 +310,13 @@ h4,
 }
 
 .title-bar button.close::before {
-  background: linear-gradient(var(--secondary) 0%, var(--secondary) 100%) left center, linear-gradient(var(--secondary) 0%, var(--secondary) 100%) right center, linear-gradient(var(--secondary) 0%, var(--secondary) 100%) center top, linear-gradient(var(--secondary) 0%, var(--secondary) 100%) center bottom;
+  background: linear-gradient(var(--primary) 0%, var(--primary) 100%) left center, linear-gradient(var(--primary) 0%, var(--primary) 100%) right center, linear-gradient(var(--primary) 0%, var(--primary) 100%) center top, linear-gradient(var(--primary) 0%, var(--primary) 100%) center bottom;
   background-size: 30% 4px, 30% 4px, 4px 30%, 4px 30%;
   background-repeat: no-repeat;
 }
 
 .title-bar button.close::after {
-  background: linear-gradient(var(--secondary) 0%, var(--secondary) 100%) left center, linear-gradient(var(--secondary) 0%, var(--secondary) 100%) right center, linear-gradient(var(--secondary) 0%, var(--secondary) 100%) center top, linear-gradient(var(--secondary) 0%, var(--secondary) 100%) center bottom;
+  background: linear-gradient(var(--primary) 0%, var(--primary) 100%) left center, linear-gradient(var(--primary) 0%, var(--primary) 100%) right center, linear-gradient(var(--primary) 0%, var(--primary) 100%) center top, linear-gradient(var(--primary) 0%, var(--primary) 100%) center bottom;
   background-size: 22.5% 3.6363636364px, 22.5% 3.6363636364px, 3.6363636364px 22.5%, 3.6363636364px 22.5%;
   background-repeat: no-repeat;
   transform: rotate(45deg) scale(1.1);
@@ -328,14 +328,14 @@ h4,
 }
 
 .title-bar button.resize {
-  background: linear-gradient(var(--secondary) 0%, var(--secondary) 100%) left 58%, linear-gradient(to bottom, var(--secondary) 0%, var(--secondary) 100%) 58% top;
+  background: linear-gradient(var(--primary) 0%, var(--primary) 100%) left 58%, linear-gradient(to bottom, var(--primary) 0%, var(--primary) 100%) 58% top;
   background-size: 60% 4px, 4px 60%;
   background-repeat: no-repeat;
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .title-bar button.resize:active {
-  background: var(--primary);
+  background: var(--secondary);
 }
 
 .title-bar button.hidden {
@@ -347,8 +347,8 @@ h4,
   margin: 1rem;
   min-width: 320px;
   overflow: hidden;
-  background-color: var(--primary);
-  border: 0.1em solid var(--secondary);
+  background-color: var(--secondary);
+  border: 0.1em solid var(--primary);
   font-family: "Inconsolata", Menlo, Chicago, Geneva;
 }
 
@@ -363,23 +363,23 @@ h4,
 
 .window-pane::-webkit-scrollbar {
   width: 22px;
-  background-color: var(--primary);
+  background-color: var(--secondary);
 }
 
 .window-pane::-webkit-scrollbar-track {
-  background: linear-gradient(45deg, var(--secondary) 25%, transparent 25%, transparent 75%, var(--secondary) 75%, var(--secondary)), linear-gradient(45deg, var(--secondary) 25%, transparent 25%, transparent 75%, var(--secondary) 75%, var(--secondary));
-  background-color: var(--primary);
+  background: linear-gradient(45deg, var(--primary) 25%, transparent 25%, transparent 75%, var(--primary) 75%, var(--primary)), linear-gradient(45deg, var(--primary) 25%, transparent 25%, transparent 75%, var(--primary) 75%, var(--primary));
+  background-color: var(--secondary);
   background-size: 4px 4px;
   background-position: 0 0, 2px 2px;
   width: 10px;
-  border-left: 4px solid var(--secondary);
+  border-left: 4px solid var(--primary);
 }
 
 .window-pane::-webkit-scrollbar-thumb {
   width: 20px;
   box-sizing: content-box;
-  background-color: var(--primary);
-  border: 2px solid var(--secondary);
+  background-color: var(--secondary);
+  border: 2px solid var(--primary);
   border-right: none;
 }
 
@@ -389,7 +389,7 @@ h4,
   flex-direction: row;
   justify-content: space-between;
   /*padding: 0.4rem 0.8rem;*/
-  border-top: 0.1rem solid var(--secondary);
+  border-top: 0.1rem solid var(--primary);
   border-width: 0.1rem 0;
   font-size: 1rem;
 }
@@ -400,7 +400,7 @@ h4,
   flex-direction: row;
   justify-content: space-between;
   padding: 0.4rem 0.8rem;
-  border: 0.1rem solid var(--secondary);
+  border: 0.1rem solid var(--primary);
   border-width: 0.1rem 0;
   font-size: 1rem;
   font-weight: 100;
@@ -416,11 +416,11 @@ button,
   min-width: 59px;
   padding: 0 20px;
   text-align: center;
-  background: var(--primary);
+  background: var(--secondary);
   border-style: solid;
   border-width: 5.5px;
   border-image: url("icon/button.svg") 30 stretch;
-  color: var(--secondary);
+  color: var(--primary);
   text-align: center;
   text-decoration: none;
   font-family: Chicago_12;
@@ -428,9 +428,9 @@ button,
 }
 
 .btn:active {
-  background: var(--secondary);
+  background: var(--primary);
   border-radius: 6px;
-  color: var(--primary);
+  color: var(--secondary);
   font-family: Chicago_12;
 }
 
@@ -438,7 +438,7 @@ button,
   min-height: 20px;
   min-width: 59px;
   text-align: center;
-  background: var(--primary);
+  background: var(--secondary);
   border-style: solid;
   border-width: 5.5px;
   border-image: url("icon/button.svg") 30 stretch;
@@ -460,7 +460,7 @@ button,
 /* text input */
 button,
 input {
-  border: 1.5px solid var(--secondary);
+  border: 1.5px solid var(--primary);
   font-family: Chicago_12;
 }
 
@@ -487,12 +487,12 @@ input[type="radio"],
 input[type="checkbox"],
 input[type="button"],
 textarea:focus {
-  background: var(--secondary);
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--secondary);
 }
 
 input[type="checkbox"]+label::before {
-  border: 1.5px solid var(--secondary);
+  border: 1.5px solid var(--primary);
   width: 20px;
   height: 20px;
 }
@@ -560,7 +560,7 @@ input[type="checkbox"]+label::before {
 
 input[type="checkbox"]:focus-visible+label::before,
 input[type="checkbox"]:hover+label::before {
-  outline: 1px solid var(--secondary);
+  outline: 1px solid var(--primary);
 }
 
 input[type="checkbox"]:checked+label::after {
@@ -627,9 +627,9 @@ select {
   -moz-appearance: none;
   position: relative;
   padding-left: 20px;
-  -webkit-box-shadow: 2px 8px 0 0px var(--secondary);
-  -moz-box-shadow: 2px 8px 0 0px var(--secondary);
-  box-shadow: 2px 2px 0 -1px var(--secondary);
+  -webkit-box-shadow: 2px 8px 0 0px var(--primary);
+  -moz-box-shadow: 2px 8px 0 0px var(--primary);
+  box-shadow: 2px 2px 0 -1px var(--primary);
 }
 
 /* menu-bar */
@@ -642,7 +642,7 @@ ul.menu-bar {
   font-family: Chicago_12;
   font-size: 1em;
   display: flex;
-  background: var(--primary);
+  background: var(--secondary);
   max-height: 2.6rem;
   border-bottom: solid 2px;
 
@@ -656,8 +656,8 @@ ul.menu-bar>.menu-item {
 ul.menu-bar>.menu-item:focus,
 ul.menu-bar>.menu-item:focus-within,
 ul.menu-bar>.menu-item:hover {
-  background: var(--secondary);
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--secondary);
   outline: none;
 }
 
@@ -672,7 +672,7 @@ ul.menu {
   padding: 0;
   position: relative;
   min-width: 200px;
-  background: var(--primary);
+  background: var(--secondary);
   color: initial;
   border: 1px solid;
   box-shadow: var(--box-shadow);
@@ -684,7 +684,7 @@ ul.menu::before {
   position: absolute;
   left: 28px;
   width: 2px;
-  box-shadow: inset 1px 0 rgba(0, 0, 0, 0.15), inset -1px 0 var(--primary);
+  box-shadow: inset 1px 0 rgba(0, 0, 0, 0.15), inset -1px 0 var(--secondary);
 }
 
 .menu-item ul.menu {
@@ -713,8 +713,8 @@ ul.menu>.menu-item[aria-haspopup="true"]:hover,
 ul.menu>.menu-item>a:focus,
 ul.menu>.menu-item>button:focus,
 ul.menu>.menu-item[aria-haspopup="true"]:focus {
-  background: var(--secondary);
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--secondary);
 }
 
 ul .menu-item {
@@ -731,7 +731,7 @@ ul .menu-item.divider::after {
   pointer-events: none;
   display: block;
   padding: 0;
-  border-top: 1.5px dotted var(--secondary);
+  border-top: 1.5px dotted var(--primary);
 }
 
 /* styles specific to demo page */
