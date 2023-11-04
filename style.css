@@ -151,9 +151,9 @@
 
 body {
   background: linear-gradient(90deg,
-      var(--primary) 21px,
+      var(--secondary) 21px,
       transparent 1%) center,
-    linear-gradient(var(--primary) 21px,
+    linear-gradient(var(--secondary) 21px,
       transparent 1%) center, var(--tertiary);
   background-size: 22px 22px;
   background-attachment: scroll;
