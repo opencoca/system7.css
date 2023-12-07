@@ -1,0 +1,69 @@
+<h1><img src="https://github.com/opencoca/system7.css/assets/26581192/a1f9ccba-9049-43e7-9c73-a75f4bc30833" alt="system7.css!"></h1>
+<p><a href="https://opencoca.github.io/system7.css/">Documentation</a></p>
+<p>System7.css is a CSS library for building interfaces that resemble Apple's System OS which ran from 1984-1991. Design-wise, not much really changed from System 1 to System 6; however, this library is based on System 6 as it was the final monochrome version of macOS.</p>
+<p>Fortunately, this library does not use any JavaScript and is compatible with any front-end framework of your choice. Most styles can also be overwritten to allow for deeper customization.</p>
+<h2>Getting Started</h2>
+<p>There are a couple of ways you can get started with System7.css!</p>
+<p><strong>Import from CDN (easiest)</strong></p>
+<p>Add the following to your head tag:</p>
+<pre><code class="language-html">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/@startr_/system7.css&quot; /&gt;
+</code></pre>
+<p>Here's some starter code to help you get started:</p>
+<pre><code class="language-html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+    &lt;title&gt;System7.css Starter&lt;/title&gt;
+    &lt;meta charset=&quot;UTF-8&quot; /&gt;
+    &lt;link rel=&quot;stylesheet&quot; href=&quot;https://unpkg.com/@startr_/system7.css&quot; /&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;div class=&quot;window&quot; style=&quot;width:30rem;&quot;&gt;
+        &lt;div class=&quot;title-bar&quot;&gt; 
+            &lt;button aria-label=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/button&gt;
+            &lt;h1 class=&quot;title&quot;&gt;System7.css&lt;/h1&gt;
+            &lt;button aria-label=&quot;Resize&quot; class=&quot;resize&quot;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;separator&quot;&gt;&lt;/div&gt;
+        
+        &lt;div class=&quot;window-pane&quot;&gt;
+            Hello world!
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class=&quot;window&quot; style=&quot;width:30rem;&quot;&gt;
+        &lt;div class=&quot;title-bar&quot;&gt; 
+            &lt;button aria-label=&quot;Close&quot; class=&quot;close&quot;&gt;&lt;/button&gt;
+            &lt;h1 class=&quot;title&quot;&gt;Search&lt;/h1&gt;
+            &lt;button aria-label=&quot;Resize&quot; disabled class=&quot;hidden&quot;&gt;&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;separator&quot;&gt;&lt;/div&gt;
+        
+        &lt;div class=&quot;modeless-dialog&quot;&gt;
+            &lt;section class=&quot;field-row&quot; style=&quot;justify-content: flex-start&quot;&gt;
+                &lt;label for=&quot;text_find&quot; class=&quot;modeless-text&quot;&gt;Find:&lt;/label&gt;
+                &lt;input id=&quot;text_find&quot; type=&quot;text&quot; style=&quot;width:100%;&quot; placeholder=&quot;&quot;&gt;
+            &lt;/section&gt;
+            &lt;section class=&quot;field-row&quot; style=&quot;justify-content: flex-end&quot;&gt;
+                &lt;button class=&quot;btn&quot;&gt;Cancel&lt;/button&gt;
+                &lt;button class=&quot;btn&quot; style=&quot;width:95px;&quot;&gt;Find&lt;/button&gt;
+            &lt;/section&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p><strong>Import from <a href="https://www.npmjs.com/package/@startr_/system7.css">npmjs</a></strong></p>
+<p>npm i @startr_/system7.css</p>
+<h2>Developing</h2>
+<ol>
+<li>Clone the repository and run <code>npm install</code></li>
+<li>Run <code>npm start</code> to start the development environment.</li>
+</ol>
+<p>Everything you'll need can be found in <a href="https://github.com/opencoca/system7.css/blob/main/style.css">style.css</a>.</p>
+<h2>Contributing, Credits, etc.</h2>
+<p>Thanks for checking this project out! This library was made in good fun and was directly inspired by <a href="https://github.com/sakofchit/system.css">ystem.css</a> and <a href="https://github.com/jdan/98.css">98.css</a>. The Chicago 12pt and Geneva 9pt fonts are recreations by <a href="https://twitter.com/blogmywiki">@blogmywiki</a></p>
+<p>System7.css is still in beta! I recreated components based on Apple's Human Interface Guidelines. However, there's still a pretty good chance that I might've missed/overlooked something essential. I've also had to recreate most of the assets, which can also be found <a href="https://github.com/opencoca/system7.css/tree/main/icon">here</a>.</p>
+<p>If you find a bug, consider opening an issue. If there's something that you'd like to add, please feel free to create a PR!</p>
+<p>If you'd like to see what else I'm up to, consider following me on <a href="https://twitter.com/opencoca">Twitter</a> or checking out my <a href="https://startr_.co">personal site</a> :)</p>
+<h2>Sponsors</h2>
+<h3>If you would like to sponsor System7 css please reach out at info@openco.ca</h3>
