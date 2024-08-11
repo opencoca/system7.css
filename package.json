@@ -1,6 +1,6 @@
 {
   "name": "system7",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A design system for building Apple inspired interfaces",
   "main": "dist/system7.css",
   "directories": {
