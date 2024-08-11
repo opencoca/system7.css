@@ -16,7 +16,7 @@ There are a couple of ways you can get started with System7.css!
 Add the following to your head tag:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/@startr_/system7.css" />
+<link rel="stylesheet" href="https://unpkg.com/system7/style.css" />
 ```
 
 Here's some starter code to help you get started:
@@ -26,7 +26,7 @@ Here's some starter code to help you get started:
 <head>
     <title>System7.css Starter</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://unpkg.com/@startr_/system7.css" />
+    <link rel="stylesheet" href="https://unpkg.com/system7/style.css" />
 </head>
 <body>
     <div class="window" style="width:30rem;">
@@ -65,9 +65,9 @@ Here's some starter code to help you get started:
 </html>
 ```
 
-**Import from [npmjs](https://www.npmjs.com/package/@startr_/system7.css)**
+**Import from [npmjs](https://unpkg.com/system7)**
 
-    npm i @startr_/system7.css
+    npm i system7
 
 ## Developing
 

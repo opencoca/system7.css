@@ -1,5 +1,5 @@
 {
-  "name": "@startr_/system7.css",
+  "name": "system7",
   "version": "0.0.1",
   "description": "A design system for building Apple inspired interfaces",
   "main": "dist/system7.css",
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "build": "npx eleventy --input=web",
+    "serve": "npx eleventy --input=web --serve",
     "deploy": "npx eleventy --input=web && git add -A && git diff --cached --quiet --exit-code || (git commit -m 'Auto commit changes' && git push origin)",
     "release": "npm run build && npm publish"
   },
@@ -22,9 +23,9 @@
   "author": "Startr Team <info@startr.ca>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/opencocasystem7.css/issues"
+    "url": "https://github.com/opencoca/system7.css/issues"
   },
-  "homepage": "https://github.com/opencocasystem7.css",
+  "homepage": "https://github.com/opencoc/asystem7.css",
   "devDependencies": {
     "chokidar": "^3.3.1",
     "cssnano": "^5.0.1",
