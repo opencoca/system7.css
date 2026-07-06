@@ -2,11 +2,33 @@
 # ![system7.css!](https://github.com/opencoca/system7.css/assets/26581192/a1f9ccba-9049-43e7-9c73-a75f4bc30833)
 
 
-[Documentation](https://opencoca.github.io/system7.css/)
+[Documentation](https://github.com/Startr/system7.css) · Demo: `npm run serve`
 
 System7.css is a CSS library for building interfaces that resemble Apple's System OS which ran from 1984-1991. Design-wise, not much really changed from System 1 to System 6; however, this library is based on System 6 as it was the final monochrome version of macOS.
 
 Fortunately, this library does not use any JavaScript and is compatible with any front-end framework of your choice. Most styles can also be overwritten to allow for deeper customization.
+
+## Distribution
+
+The built stylesheet lives in `dist/` — icons and fonts flat beside the CSS,
+custom properties flattened, minified, version-bannered. Consume it one of
+three ways:
+
+```html
+<!-- jsDelivr, straight from the repo (works without npm) -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Startr/system7.css@main/dist/system7.css" />
+
+<!-- unpkg, via the npm package -->
+<link rel="stylesheet" href="https://unpkg.com/system7/dist/system7.css" />
+```
+
+```bash
+npm install system7   # then import "system7/dist/system7.css"
+```
+
+Rebuild after editing `style.css` with `npm run dist`. Please do not link the
+raw source `style.css` through githack/raw URLs — that path serves unbuilt
+source and broke consumers before (missing-icon 404s).
 
 ## Getting Started
 There are a couple of ways you can get started with System7.css!
@@ -16,7 +38,7 @@ There are a couple of ways you can get started with System7.css!
 Add the following to your head tag:
 
 ```html
-<link rel="stylesheet" href="https://unpkg.com/system7/style.css" />
+<link rel="stylesheet" href="https://unpkg.com/system7/dist/system7.css" />
 ```
 
 Here's some starter code to help you get started:
@@ -26,7 +48,7 @@ Here's some starter code to help you get started:
 <head>
     <title>System7.css Starter</title>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="https://unpkg.com/system7/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/system7/dist/system7.css" />
 </head>
 <body>
     <div class="window" style="width:30rem;">
